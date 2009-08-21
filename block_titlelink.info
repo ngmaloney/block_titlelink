@@ -1,0 +1,4 @@
+; $Id$
+name = Block Title Link
+description = Allows assigning links to Block Titles
+core = 6.x

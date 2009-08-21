@@ -1,0 +1,19 @@
+<?php 
+
+class BlockTitleLink extends DrupalTestCase {
+    
+  function get_info() {
+    return array(
+      'name' => t('Block Title Link Tests'),
+      'desc' => t('Tests for the block title_link module'),
+      'group' => t('block_titlelink tests')
+    );
+  }
+  
+  /**
+  * Function to test countries_api_get_formats() results
+  **/
+  function test_block_titlelink_form_alter() {
+    $form = array();
+    $this->assertNotNull($form, 'Testing Block Title Link Block Config Form. %s');
+  }
